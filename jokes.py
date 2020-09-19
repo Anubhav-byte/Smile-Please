@@ -1,6 +1,6 @@
 from requests import get
 
-__all__ = ['geek', 'icanhazdad', 'chucknorris', 'icndb']
+
 
 def geek():
     r = get('https://geek-jokes.sameerkumar.website/api')
