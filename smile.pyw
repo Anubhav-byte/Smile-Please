@@ -14,28 +14,28 @@ for i in range(10):
     if(rn==1):
 
         joke= jokes.geek()
-        n.show_toast("A joke for you", joke , duration=30)
+        n.show_toast("A joke for you", joke , duration=30 , icon_path= "D:\\hackathon\\Smile-Please\\images\\smile.ico")
         count +=1
     elif rn==2:
 
         joke=jokes.icanhazdad()
-        n.show_toast("Hear a joke", joke , duration=30 )
+        n.show_toast("Hear a joke", joke , duration=30, icon_path="D:\\hackathon\\Smile-Please\\images\\smile.ico")
         count +=1
 
     elif rn==3:
 
         joke=jokes.chucknorris()
-        n.show_toast("Have you heard this joke?", joke , duration=30 )
+        n.show_toast("Have you heard this joke?", joke , duration=30, icon_path="D:\\hackathon\\Smile-Please\\images\\smile.ico" )
         count +=1
 
     else:
         joke=jokes.icndb()
-        n.show_toast("Smiling helps" , joke , duration=30)
+        n.show_toast("Smiling helps" , joke , duration=30, icon_path= "D:\\hackathon\\Smile-Please\\images\\smile.ico")
         count +=1
 
     if count%2 == 0:
         message='You should drink water'
-        n.show_toast('Hey! Listen' , message , duration=15)
+        n.show_toast('Hey! Listen' , message , duration=15, icon_path="D:\\hackathon\\Smile-Please\\images\\water.ico")
 
     if count%5 == 0:
         message = "You are making the monitor shy with your long stare, see something else"
