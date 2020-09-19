@@ -3,7 +3,7 @@ Nowadays, people are smiling very infrequently. It has reached to a point that, 
 
 ## Getting started
 To use this software all you have to do is clone this repository to  your system.
-Use the command git clone https://github.com/Anubhav-byte/Smile-Please 
+Use the command:  **git clone https://github.com/Anubhav-byte/Smile-Please** 
 
 ### Prerequistes
 You need to have the following installed on your system:
